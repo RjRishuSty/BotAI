@@ -1,0 +1,49 @@
+.sidebar {
+  /* border: 2px solid green; */
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-color) !important;
+}
+.sidebarItem {
+  width: 100%;
+  height: auto;
+  padding: 15px 10px 15px 0px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 33.58px;
+  height: 32px;
+  margin-left: 16.42px;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer !important;
+} 
+.newChat {
+  font-family: var(--font-primary) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  color: var(--text-primary) !important;
+}
+.chatIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer !important;
+}
+.button {
+  width: auto;
+  height: auto;
+  border-radius: 10px !important;
+  font-family: var(--font-primary);
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  padding: 10px 15px !important;
+  text-align: center !important;
+  background-color: var(--secondary-color) !important;
+}

@@ -1,0 +1,10 @@
+
+
+.icon{
+    /* border:2px solid red !important; */
+    width: 40px !important;
+    height:40px !important;
+    padding: 5px !important;
+    cursor: pointer !important;
+    color: var(--text-secondary) !important;
+}
