@@ -36,10 +36,11 @@ const Home = () => {
         );
         document.documentElement.style.setProperty(
           "--secondary-color",
-          "#D7C7F4"
+          "black"
         );
         document.documentElement.style.setProperty("--background", "#3C3C3C");
         document.documentElement.style.setProperty("--text-secondary", "white");
+        document.documentElement.style.setProperty("--text-primary", "white");
       }
 
       return Mode;

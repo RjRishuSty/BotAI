@@ -48,7 +48,7 @@
 .card {
   /* border: 2px solid yellow; */
   width: 100%;
-  min-height: 150px;
+  height: 150px;
 }
 .question {
   font-family: var(--font-primary) !important;
@@ -63,8 +63,7 @@
   text-align: start !important;
   color: #00000080 !important;
 }
-@media (max-width:893px) {
-  
+@media (max-width: 893px) {
   .card {
     width: 100%;
     height: auto;
@@ -74,12 +73,10 @@
     font-size: 18px !important;
     font-weight: 600 !important;
   }
-  
 }
 
-
 /* Text Feild */
-.inputBox{
+.inputBox {
   /* border: 2px solid red; */
   width: 100%;
   height: auto;
@@ -89,6 +86,10 @@
   height: 41px;
   border: 1px solid #00000073;
   border-radius: 5px;
+  padding: 0px 15px;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: var(--text-primary);
 }
 .button {
   border-radius: 5px !important;
@@ -100,7 +101,7 @@
   color: var(--text-primary) !important;
 }
 
-@media (max-width:597px) {
+@media (max-width: 597px) {
   .button {
     border-radius: 5px !important;
     font-family: var(--font-primary) !important;
@@ -110,4 +111,37 @@
     background-color: var(--secondary-color) !important;
     color: var(--text-primary) !important;
   }
+}
+
+/* responseCard */
+.responseCard {
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  padding: 0px 15px !important;
+  border-radius: 20px !important;
+  background-color: #d7c7f421 !important;
+}
+.user {
+  font-family: var(--text-primary) !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-align: start !important;
+  color: var(--text-primary) !important;
+}
+.questionRespnse {
+  font-family: var(--font-secondary) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  color: var(--text-primary) !important;
+}
+.date {
+  font-family: var(--font-secondary) !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  text-align: start !important;
+  color: var(--text-primary) !important;
 }
