@@ -1,0 +1,32 @@
+.cardBox {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    /* padding: 10px 10px; */
+  }
+  .card {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: auto;
+  }
+  .question {
+    font-family: var(--font-primary) !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-align: start !important;
+  }
+  .answer {
+    font-family: var(--font-secondary) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important; 
+    text-align: start !important;
+    color: #00000080 !important;
+  }
+  @media (max-width: 893px) {
+    
+    .question {
+      font-family: var(--font-primary) !important;
+      font-size: 18px !important;
+      font-weight: 600 !important;
+    }
+  }

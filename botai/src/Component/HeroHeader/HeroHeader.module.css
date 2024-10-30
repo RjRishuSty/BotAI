@@ -1,0 +1,7 @@
+.brandName {
+    font-family: var(--font-primary) !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: var(--text-secondary) !important;
+    padding-left: 10px;
+  }
